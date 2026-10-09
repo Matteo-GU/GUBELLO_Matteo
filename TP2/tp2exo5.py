@@ -1,0 +1,13 @@
+nombre=int(input("Entrez un nombre entier : "))
+if (nombre>0):
+    if ((nombre%2)==0):
+        print("La nombre est positif et pair")
+    else:
+        print("La nombre est positif et impair")
+elif (nombre<0):
+    if ((nombre%2)==0):
+        print("La nombre est négatif et pair")
+    else:
+        print("La nombre est négatif et impair")
+else:
+    print("Le nombre est zero (et il est pair)")
